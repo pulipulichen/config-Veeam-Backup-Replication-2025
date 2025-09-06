@@ -56,7 +56,7 @@ function Enable-Rdp {
         }
         Write-Host "Added user to Remote Desktop Users: $u"
       } catch {
-        Write-Warning "Failed to add $u: $($_.Exception.Message)"
+        Write-Warning "Failed to add $u : $($_.Exception.Message)"
       }
     }
   }
